@@ -6,8 +6,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 a{
 
@@ -22,6 +26,7 @@ a{
     padding: 2rem 20rem;
     position: fixed;
     width: 100%;
+    
 
     
 
@@ -111,7 +116,7 @@ opacity: 0.7;
 
 #service {
 
-    padding: 6rem;
+    padding: 8rem;
     
 }
 
@@ -155,6 +160,7 @@ margin-top: 5px;
     text-align: center;
     padding: 2rem;
     margin-top: 10px;
+    
 }
 
 .icon_ser .box i {
@@ -165,7 +171,8 @@ margin-top: 5px;
     color: white;
     border-radius: 100%;
     font-size: 50px;
-    padding: 20px;
+   padding: 20px;
+    
 }
     
 
@@ -189,14 +196,105 @@ margin-top: 5px;
 #port {
 
     background-color: #f8f9fa;
-    /* padding: 4rem 20rem; */
+    padding: 6rem 20rem;
     
+}
+
+
+#port .port_text h1{
+
+    margin-bottom: 16px;
+
+
+}
+
+#port .port_text p{
+
+    margin-bottom: 64px;
+
+
 }
 
 .port_icon {
 
     display: flex;
-    position: absolute;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 
+}
+
+.port_icon .box {
+
+
+    width: 32%;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.port_icon .box img {
+
+    width: 100%;
+    vertical-align: bottom;
+    
+}
+
+.box .bottom {
+
+    background-color: #fff;
+    padding: 24px;
+
+    
+}
+
+.box .bottom h2{
+
+
+    font-size: 24px;
+}
+
+.box .bottom p{
+
+
+    font-size: 16px;
+    font-family:'Roboto Slab', serif;
+    font-style: italic;
+    color: #6c757d;
+}
+
+.box {
+
+    position: relative;
+}
+
+
+.box .top {
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffc800;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+    
+}
+
+.overlay i{
+
+    font-size: 70px;
+    color: white;
+    
+}
+
+.box:hover .overlay{
+
+    opacity: 0.85;
 }
 
