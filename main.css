@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a{
+
+    text-decoration: none;
+}
+
+
+#header {
+    
+    
+    display: flex;
+    padding: 2rem 20rem;
+    position: fixed;
+    width: 100%;
+
+    
+
+}
+
+
+#header .left  {
+
+    width: 10%;
+   
+
+}
+
+
+#header .right{
+
+    width: 90%;
+    text-align: right;
+    
+    
+}
+
+#header .right a:hover {
+
+    color: #ffc800;
+}
+
+#header .right a {
+
+    margin-left: 23px;
+    font-size: 16px;
+    color: white;
+    transition: .5s
+    ;
+    
+}
+
+#first {
+
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 30vh;
+}
+
+#first h2{
+
+    margin-bottom: 32px;
+    font-size: 36px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#first h1 {
+
+    margin-bottom: 64px;
+    font-size: 72px;
+    color: white;
+    font-weight: 700;
+    
+
+}
+
+#first a{
+
+    padding: 20px 40px;
+    color: white;
+    background-color: #ffc800;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .5s;
+
+}
+
+#first a:hover {
+
+opacity: 0.7;
+
+}
+
+
+#service {
+
+    padding: 6rem;
+    
+}
+
+.text_ser , .port_text {
+
+    text-align: center;
+    
+
+
+}
+
+
+.text_ser  h1 , .port_text h1 {
+
+font-size: 40px;
+
+}
+
+
+.text_ser p , .port_text p {
+
+font-size: 16px;
+font-family: 'Roboto Slab', serif;
+color: #6c757d;
+font-style: italic;
+margin-top: 5px;
+
+}
+
+
+
+.icon_ser {
+    display: flex;
+    padding: 0 12rem;
+}
+
+
+.icon_ser .box {
+
+    width: calc(100%/3);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 10px;
+}
+
+.icon_ser .box i {
+
+    width: 100px;
+    height: 100px;
+    background-color: #ffc800;
+    color: white;
+    border-radius: 100%;
+    font-size: 50px;
+    padding: 20px;
+}
+    
+
+
+.icon_ser .box h2 {
+
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+
+.icon_ser .box p {
+
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    color: #6c757d;
+    
+
+}
+
+#port {
+
+    background-color: #f8f9fa;
+    /* padding: 4rem 20rem; */
+    
+}
+
+.port_icon {
+
+    display: flex;
+    position: absolute;
+
+}
+
